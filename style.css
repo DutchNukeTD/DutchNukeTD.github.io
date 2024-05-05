@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+
+.Scores {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: clamp(10px, 30vw, 30px);
+}
+
+.Players {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.playersNamesInput {
+    width: clamp(100px, 150px, 200px);
+    background-color: rgb(230, 230, 230);
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+}
+
+.Gamebody {
+    border: solid 2px black;
+    width: 450px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: repeat(3, minmax(100px, 1fr));
+    padding: 10px;
+}
+
+.Button {
+    border: solid 1px gray;
+    padding: 10px;
+    font-size: clamp(100px, 30vw, 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button._0 {
+    border-left-style: hidden;
+    border-top-style: hidden;
+}
+.Button._1 {
+    border-top-style: hidden;
+}
+.Button._2 {
+    border-right-style: hidden;
+    border-top-style: hidden;
+}
+.Button._3 {
+    border-left-style: hidden;
+}
+.Button._5 {
+    border-right-style: hidden;
+}
+.Button._6 {
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+.Button._7 {
+    border-bottom-style: hidden;
+}
+.Button._8 {
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.playerNames {
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.dialogCard {
+    background-color: rgb(230, 230, 230);
+}
+
+.ChooseGameMode {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.dialogBackContinue {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dialogPlayerOneComputer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    margin-top: -10px;
+}
+
+.XOButton {
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+}
